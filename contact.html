@@ -14,14 +14,14 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body >
+<body>
 
- <header class="bg-dark container-fluid">
+  <header class="bg-dark container-fluid">
 
 
     <section id="container2" class="row justify-content-between align-items-center flex-wrap">
       <div id="logo_text " class="col-2 ms-5 ">
-        <h1 ><a href="index.html " class="text-white text-decoration-none">My Portfolio</a></h1>
+        <h1><a href="index.html " class="text-white text-decoration-none">My Portfolio</a></h1>
       </div>
       <div id="navigation_links " class="col-6 ">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -43,7 +43,8 @@
                   <a class="nav-link  text-white" href="skill_section.html"> Skills Section</a>
                 </li>
                 <li class="nav-item ms-4">
-                  <a class="nav-link  text-white" href="certification_achievement.html">Certifications / Achievements</a>
+                  <a class="nav-link  text-white" href="certification_achievement.html">Certifications /
+                    Achievements</a>
                 </li>
                 <li class="nav-item ms-4">
                   <a class="nav-link  text-white" href="contact.html">Contact</a>
@@ -58,20 +59,50 @@
 
   </header>
   <main class="bg-secondary">
-    <section class="herosection container-fluid p-5">
-      <div class="container row justify-content-between g-0 align-items-center mx-auto  bg-dark rounded">
-        <div id="img " class="col-3 m-5">
-          <img src="profile.jpeg" alt="" class="img-fluid rounded">
-          
-        </div>
-        <div id="text_area" class="col-7 text-white m-5">
-            <h2>Name:Waghmare Chaitanya Subhash</h2>
-            <h3><i>Software Devloper</i></h3>
-            <p>I’m a passionate Software Developer with a strong foundation in programming and problem-solving. I specialize in building efficient, user-friendly applications and continuously strive to learn and implement modern technologies.</p>
+    <div class="container contact-section">
+      <h2 class="text-center contact-heading">Get in Touch</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject of your message">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."
+                required></textarea>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
 
+      <!-- Optional: Social Links -->
+      <div class="text-center mt-5">
+        <p>Or connect with me on:</p>
+        <a href="https://www.linkedin.com/in/chaitanyaswaghmare/" class="btn btn-outline-primary me-2"
+          target="_blank">LinkedIn</a>
+        <a href="https://github.com/chaitanyaswaghmare" class="btn btn-outline-dark me-2" target="_blank">GitHub</a>
+        <a href="mailto:chaitanya080999@gmail.com" class="btn btn-outline-warning">Email</a>
+      </div>
+
+    </div>
   </main>
   <footer class="bg-dark text-white text-center  p-2 fixed-bottom ">
     <p>&copy; 2025 My Portfolio</p>
