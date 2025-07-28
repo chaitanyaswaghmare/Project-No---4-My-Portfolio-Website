@@ -23,7 +23,7 @@
       font-size: 2.5rem;
       margin-bottom: 30px;
     }
-    .card {
+    .right_border {
       border-left: 5px solid #0d6efd;
       transition: 0.3s;
     }
